@@ -50,4 +50,5 @@ What is diff between Delete & Truncate ?
 What is joines ?
 What is indexing ?
 High CPU % and what are the commands for it ?
+What is branching in git ?
 
