@@ -23,6 +23,7 @@ Explain you CI/CD exposure ?
 How you configured alerts in your system it is splunk?
 What is splunk and how you utlise it ?
 What is dynatrace ?
+What is synthetic monitoring ?
 
 
 Interview 3(LTI): 
