@@ -6,6 +6,16 @@ Daily linkedin searchs & applies
 Daily indeed searches 
 Daily remote job applies 
 
+TASKS 
+Privancia 
+Wipro 3
+One2n - Update
+Wipro 2 Update
+Tech M Update 
+MC Update
+NTT DATA INC. - Schedule not received.
+
+
 Fintech - 
 
 
@@ -47,6 +57,17 @@ Explain Payment Gateway Workflow ?
 What if happened if there connection activity lost between issuer and bank ?
 What is splunk ?
 What is diff between Delete & Truncate ?
+What are the joines in SQL ?
+
+Interview 6(TECH MAHINDRA)
+Expalin yourself ?
+Explain CI/CD workflow ?
+Have knowldeg about SQL ?
+
+
+
+
+
 What is joines ?
 What is indexing ?
 High CPU % and what are the commands for it ?
