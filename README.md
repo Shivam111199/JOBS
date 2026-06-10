@@ -67,9 +67,46 @@ Have knowldeg about SQL ?
 
 
 
-
 What is joines ?
 What is indexing ?
 High CPU % and what are the commands for it ?
 What is branching in git ?
+
+
+Explain your CI/CD pipeline ?
+Pipleine in jenkins and AWS ?
+Write your CI/CD piepline ?
+Write down docker compose file ?
+How the logs are getting stored on prometheus and it's setup how you did in docker compose ?
+What is prometheus & Grafana ?
+What is node-exporter ?
+What is opentelemetry ?
+What is Canary , blue , Green deplyment ?
+How you can replace a name "Shivam" with "Ghodke" using linux command ? Write a for loop for this as well 
+K8S architecture ?
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
