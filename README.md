@@ -14,10 +14,13 @@ Wipro 2 Update
 Tech M Update 
 MC Update
 NTT DATA INC. - Schedule not received.
+Deloite Client (Cirruslabs PayRoll)
+Teksystemts (Client HSBC)
+Metro Global (Take update 11 JUN)
+galaxy Itech (Apple client)
 
 
 Fintech - 
-
 
 
 
@@ -72,7 +75,12 @@ What is indexing ?
 High CPU % and what are the commands for it ?
 What is branching in git ?
 
+Wipro (3rd)
+Explain CI/Cd pipelines on your daily stuff ?
+What is canary deployment ?
 
+
+LTM (Devops)
 Explain your CI/CD pipeline ?
 Pipleine in jenkins and AWS ?
 Write your CI/CD piepline ?
@@ -85,6 +93,33 @@ What is Canary , blue , Green deplyment ?
 How you can replace a name "Shivam" with "Ghodke" using linux command ? Write a for loop for this as well 
 K8S architecture ?
  
+Stripe (Payments Analyst)
+How you can check duplicates in a table SQL ?
+Explain your roles and responsibilities ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
