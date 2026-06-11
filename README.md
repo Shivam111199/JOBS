@@ -95,6 +95,7 @@ What is Canary , blue , Green deplyment ?
 How you can replace a name "Shivam" with "Ghodke" using linux command ? Write a for loop for this as well 
 K8S architecture ?
 What is OOM out of memeory? 
+what is k8s Version ?
  
 Stripe (Payments Analyst)
 How you can check duplicates in a table SQL ?
