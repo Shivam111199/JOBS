@@ -18,7 +18,9 @@ Deloite Client (Cirruslabs PayRoll)
 Teksystemts (Client HSBC)
 Metro Global (Take update 11 JUN)
 galaxy Itech (Apple client)
-
+Metro Global (Friday)
+MensaBrands (Friday)
+BridgeNext (Friday)
 
 Fintech - 
 
