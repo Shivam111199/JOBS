@@ -1,67 +1,99 @@
-Q.1) How would you create an highly available infastructure ?
+# Interview Questions & Answers
 
-      To create a highly available infrastructure, I would eliminate single points of failure at every layer. 
-      I would deploy multiple application instances behind a load balancer, 
-      distribute them across multiple availability zones or data centers, use database replication with automatic failover, 
-      implement health checks and monitoring using Prometheus and Grafana, 
-      and ensure backups and disaster recovery procedures are in place. This way, if one server, 
-      application instance, or even an entire zone fails, the service remains available to users.
+## Q.1) How would you create a highly available infrastructure?
 
-Detailed Layer-wise Answer
+To create a highly available infrastructure, I would eliminate single points of failure at every layer. I would deploy multiple application instances behind a load balancer, distribute them across multiple availability zones or data centers, use database replication with automatic failover, implement health checks and monitoring using Prometheus and Grafana, and ensure backups and disaster recovery procedures are in place. This way, if one server, application instance, or even an entire zone fails, the service remains available to users.
 
-1. Load Balancer
+---
 
-       Deploy multiple application servers.
-       Place them behind a Load Balancer (NGINX, HAProxy, AWS ALB).
-       Configure health checks.
-       Traffic automatically shifts if one server fails.
+## Detailed Layer-wise Answer
 
-2. Application Layer
+### 1. Load Balancer
 
-       Run multiple application instances.
-       Use Kubernetes Deployments with multiple replicas.
-       Enable auto-healing and auto-scaling.
+- Deploy multiple application servers.
+- Place them behind a Load Balancer (NGINX, HAProxy, AWS ALB).
+- Configure health checks.
+- Traffic automatically shifts if one server fails.
 
-4. Database Layer
-   
-       Primary-Replica setup.
-       Automatic failover.
-       Regular backups and point-in-time recovery.
+#### 1.a Synthetic Monitoring
 
-6. Infrastructure Layer
+- **Proactive health checks** through synthetic transactions that simulate real user behavior.
+- Use tools like **Pingdom, UptimeRobot, or Datadog Synthetics** to periodically test critical user journeys.
+- Monitor API endpoints, login flows, payment transactions, and critical workflows.
+- Set up alerts if synthetic tests fail, indicating potential issues before real users are affected.
+- Record metrics like response time, SSL certificate validity, and DNS resolution.
+- Helps identify performance degradation and availability issues across different geographic regions.
 
-       Deploy servers across multiple Availability Zones/Data Centers.
-       Avoid single points of failure.
+### 2. Application Layer
 
-8. Monitoring & Alerting
+- Run multiple application instances.
+- Use Kubernetes Deployments with multiple replicas.
+- Enable auto-healing and auto-scaling.
 
-       Prometheus for metrics.
-       Grafana dashboards.
-       Alertmanager for notifications.
-       Monitor CPU, memory, disk, latency, and errors.
+### 3. Database Layer
 
-10. Disaster Recovery
-    
-        Regular backups.
-        Infrastructure as Code (Terraform).
-        Recovery procedures tested periodically.
-        Kubernetes-Specific Answer
+- Primary-Replica setup.
+- Automatic failover.
+- Regular backups and point-in-time recovery.
 
-In Kubernetes, I would deploy multiple pod replicas using Deployments, expose them through a Service and Load Balancer, distribute workloads across worker nodes, use readiness and liveness probes for health checks, implement HPA for scaling, and use persistent storage with backup and disaster recovery mechanisms.
+### 4. Infrastructure Layer
 
+- Deploy servers across multiple Availability Zones/Data Centers.
+- Avoid single points of failure.
 
-Q: What is a Single Point of Failure (SPOF)?
+### 5. Monitoring & Alerting
 
-         A Single Point of Failure is a component whose failure can bring down the entire system. For example, having only one application server or one database server. High availability aims to remove all SPOFs.
+- **Prometheus** for metrics collection.
+- **Grafana** dashboards for visualization.
+- **Alertmanager** for notifications.
+- Monitor CPU, memory, disk, latency, and errors.
 
+### 6. Disaster Recovery
 
+- Regular backups.
+- Infrastructure as Code (Terraform).
+- Recovery procedures tested periodically.
 
-Q.2  Where you are good in monitoring ?
+---
 
-      I am strong in infrastructure and application monitoring using Prometheus, Grafana, and Graylog. I have experience creating dashboards, configuring alerts, monitoring Linux servers, Kubernetes   environments, application health, API availability, CPU, memory, disk utilization, and log analysis. I regularly use Grafana for visualization, Prometheus for metrics collection, and Graylog for centralized log monitoring and troubleshooting production issues.
+## Kubernetes-Specific Answer
 
+In Kubernetes, I would:
+- Deploy multiple pod replicas using Deployments.
+- Expose them through a Service and Load Balancer.
+- Distribute workloads across worker nodes using anti-affinity rules.
+- Use readiness and liveness probes for automatic pod restart and traffic routing.
+- Implement PodDisruptionBudgets to maintain availability during node maintenance.
+- Use StatefulSets for stateful applications with persistent storage.
 
+---
 
+## Q: What is a Single Point of Failure (SPOF)?
 
+A **Single Point of Failure** is a component whose failure can bring down the entire system. For example:
+- Having only one application server
+- A single database server
+- One load balancer
+- A single internet connection
+- One data center
 
+**High availability** aims to eliminate SPOFs by introducing redundancy and failover mechanisms at every critical layer.
 
+---
+
+## Q.2) Where are you good in monitoring?
+
+I am strong in infrastructure and application monitoring using:
+
+- **Prometheus** - Time-series metrics collection and storage
+- **Grafana** - Dashboard creation and visualization
+- **Graylog** - Log aggregation and analysis
+- **Datadog/New Relic** - APM and comprehensive monitoring
+
+**Experience includes:**
+- Creating custom dashboards for application and infrastructure metrics
+- Configuring alert rules and notification channels
+- Monitoring Linux servers, Kubernetes clusters, and containerized applications
+- Setting up log aggregation and distributed tracing
+- Performance optimization based on monitoring insights
+- Synthetic monitoring and uptime checks
