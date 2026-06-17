@@ -1,151 +1,399 @@
 # JOBS
 
-Daily portal checkings 
-Daily naukri applies 
-Daily linkedin searchs & applies
-Daily indeed searches 
-Daily remote job applies 
+Daily portal checking
+Daily Naukri applications
+Daily LinkedIn searches & applications
+Daily Indeed searches
+Daily remote job applications
 
-TASKS 
-Privancia 
+TASKS
+Privancia
 Wipro 3
 One2n - Update
 Wipro 2 Update
-Tech M Update 
+Tech M Update
 MC Update
 NTT DATA INC. - Schedule not received.
-Deloite Client (Cirruslabs PayRoll)
-Teksystemts (Client HSBC)
+Deloitte Client (Cirruslabs PayRoll)
+Teksystems (Client HSBC)
 Metro Global (Take update 11 JUN)
-galaxy Itech (Apple client)
+Galaxy Itech (Apple client)
 Metro Global (Friday)
 MensaBrands (Friday)
 BridgeNext (Friday)
 
-Fintech - 
+Fintech -
 
 
+Questions -
+Interview 1 (WIPRO) :-
+AWK, find, locate, top, htop, kill, pkill
+How can we check high CPU usage?
+What are joins?
+What is image versioning in Docker?
 
-Questions - 
-Interview 1 (WIPRO) :- 
-AWK , find , locate , top , Htop,kill,Pkill  
-High CPU usgae how can we check.
-What is joins ?
-What is image versioning in Docker ?
-
-Interview 2 (MC): 
-Explain you CI/CD exposure ?
-How you configured alerts in your system it is splunk?
-What is splunk and how you utlise it ?
-What is dynatrace ?
-What is synthetic monitoring ?
-
-
-Interview 3(LTI): 
-Explain your day to day activity ?
-How you can check high CPU % and resolve it ?
-Explain your one case which you resolved in production environement ?
-What is ITSM process you followed in day to day activity ?
-What is ITIL ?
-Explain the case where you fixed and provided the solution to product team ?
+Interview 2 (MC):
+Explain your CI/CD exposure?
+How did you configure alerts in your system using Splunk?
+What is Splunk and how do you utilize it?
+What is Dynatrace?
+What is synthetic monitoring?
 
 
-Interview 4(Deustche): 
-What is rest API ?
-What are different https methods and codes you know ?
-What is 5 XX error means ?
-Explain opentelemetry ?
+Interview 3 (LTI):
+Explain your day-to-day activity?
+How can you check high CPU % and resolve it?
+Explain one case which you resolved in a production environment?
+What is the ITSM process you follow in day-to-day activities?
+What is ITIL?
+Explain the case where you fixed and provided the solution to the product team?
 
 
-Interview 5(Wipro 2): 
-Explain Payment Gateway Workflow ?
-What if happened if there connection activity lost between issuer and bank ?
-What is splunk ?
-What is diff between Delete & Truncate ?
-What are the joines in SQL ?
-
-Interview 6(TECH MAHINDRA)
-Expalin yourself ?
-Explain CI/CD workflow ?
-Have knowldeg about SQL ?
+Interview 4 (Deutsche):
+What is REST API?
+What are different HTTPS methods and codes you know?
+What does 5XX error mean?
+Explain OpenTelemetry?
 
 
+Interview 5 (Wipro 2):
+Explain Payment Gateway Workflow?
+What happens if the connection activity is lost between issuer and bank?
+What is Splunk?
+What is the difference between Delete & Truncate?
+What are the joins in SQL?
+
+Interview 6 (TECH MAHINDRA)
+Explain yourself?
+Explain CI/CD workflow?
+Do you have knowledge about SQL?
 
 
-What is joines ?
-What is indexing ?
-High CPU % and what are the commands for it ?
-What is branching in git ?
+What are joins?
+What is indexing?
+What are the commands to check high CPU %?
+What is branching in Git?
 
 Wipro (3rd)
-Explain CI/Cd pipelines on your daily stuff ?
-What is canary deployment ?
+Explain CI/CD pipelines in your daily work?
+What is canary deployment?
 
 
-LTM (Devops)
-Explain your CI/CD pipeline ?
-Pipleine in jenkins and AWS ?
-Write your CI/CD piepline ?
-Write down docker compose file ?
-How the logs are getting stored on prometheus and it's setup how you did in docker compose ?
-What is prometheus & Grafana ?
-What is node-exporter ?
-What is opentelemetry ?
-What is Canary , blue , Green deplyment ?
-How you can replace a name "Shivam" with "Ghodke" using linux command ? Write a for loop for this as well 
-K8S architecture ?
-What is OOM out of memeory? 
-what is k8s Version ?
- 
+LTM (DevOps)
+Explain your CI/CD pipeline?
+Pipeline in Jenkins and AWS?
+Write your CI/CD pipeline?
+Write down Docker Compose file?
+How are logs stored on Prometheus and how did you set it up in Docker Compose?
+What is Prometheus & Grafana?
+What is node-exporter?
+What is OpenTelemetry?
+What are Canary, Blue-Green deployment strategies?
+How can you replace a name "Shivam" with "Ghodke" using a Linux command? Write a for loop for this as well.
+K8S architecture?
+What is OOM (Out of Memory)?
+What is K8s Version?
+
 Stripe (Payments Analyst)
-How you can check duplicates in a table SQL ?
-Explain your roles and responsibilities ?
+How can you check duplicates in a table using SQL?
+Explain your roles and responsibilities?
 
 
-BridgeNext 
+BridgeNext
 
-What is terraform ?
-Create and EC2 insatnce with the help of terraform ?
-Crashloopbackoff explain and how you will resolve it ?
-Hoe you can create an EC2 instance in AWS ?
-How you can increse the replicas ?
-How we can set-up auto scaling of that ?
-Horizontal autoscaling and VPA ?
-how you configured parameters and then used quriers and configured dashboards in grafana ?
-How you configuring alerts in your current system ?
-How do you maintain the RCA ?
-what is metices , logs and traces ?
-What is elastic IP on EC2 ?
-What is use of cloudwatch ?
-how to unconfigure the cloudwatch ?
-Last 10 logs of an file ?
-i have one process running on port 9090 how i can kill that ?
-
-
-Metro 
-how you would create highly available infrstaructure ?
-Where you are great at monitoring ?
-Ok now you created an ifrasturcture manually is that ok ?
-If you see pod is in pending state what troubleshooting you will do ?
-Production patterns & anti -patterns ?
-Now our team have creeated the apps, everyting and we don not have any monitoring - you want to check if user have access what would be the nearest point that you would monitor a user request in order ?
-Syenthetic monitoring ?
-Which are the four golder signals are there ?
-some users are complaing theat the service that you are hosting at vpn is not wokring. how would you troubleshoot if everyting works or nit 
-if you want to check the connectivity to that application from th outside to the VM what command would you use ?
+What is Terraform?
+Create an EC2 instance with the help of Terraform?
+Explain Crashloopbackoff and how you will resolve it?
+How can you create an EC2 instance in AWS?
+How can you increase the replicas?
+How can we set up auto scaling?
+Horizontal autoscaling and VPA?
+How did you configure parameters and then use queries and configure dashboards in Grafana?
+How are you configuring alerts in your current system?
+How do you maintain the RCA?
+What are metrics, logs, and traces?
+What is Elastic IP on EC2?
+What is the use of CloudWatch?
+How to unconfigure CloudWatch?
+How to view the last 10 logs of a file?
+I have a process running on port 9090, how can I kill it?
 
 
-Mensa brands 
+---
 
- How your daily day starts ?
- How you will rate yourself k8s in out of 10 ?
- Whatever we are runnung any perticulkar k8s pod where actually it is running ? is it a container or an image or cluster it is within a cluster like yeah ? but cluster will only keep the mapping on ? where the clusters are actually runnuing ?
- Can you run muntiple parts of the same service in a single EKS node , basically virtual severs that you are using ?
- What is autoscaling of groups ?
- What thing can sosume 
+# Metro Global - Senior SRE Level Interview Questions & Answers
 
- 
-Based on all our interview preparation chats (SRE, DevOps, Kubernetes, AWS, Linux, Monitoring, Grafana, Graylog, Java basics, SQL, Incident Management, NOC/SRE scenarios, Metro Global Solutions, NTT Data, etc.), here's a consolidated master question bank organized by topic.
+## 1. How would you create a highly available infrastructure?
+
+**Answer:**
+- Use multiple availability zones (AZs) for redundancy
+- Implement load balancing (ALB/NLB) across AZs
+- Configure auto-scaling groups for dynamic scaling
+- Use managed databases with multi-AZ failover
+- Implement health checks and automated recovery
+- Use Infrastructure as Code (Terraform/CloudFormation) for consistency
+- Implement disaster recovery and backup strategies
+- Monitor with Prometheus/Grafana for real-time visibility
+- Use Kubernetes with multi-node deployment across zones
+
+## 2. Where are you great at monitoring?
+
+**Answer:**
+- Infrastructure monitoring: CPU, Memory, Disk, Network
+- Application performance monitoring (APM) using Prometheus & Grafana
+- Log aggregation and analysis using Graylog
+- Distributed tracing with OpenTelemetry
+- Custom dashboards in Grafana with relevant metrics
+- Alert configuration using Alertmanager
+- SLA/SLO tracking and error budget monitoring
+- Real user monitoring (RUM) and synthetic monitoring
+- Third-party service monitoring and dependency tracking
+
+## 3. You created an infrastructure manually—is that acceptable?
+
+**Answer:**
+- No, manual infrastructure is not scalable or reproducible
+- Best practice: Use Infrastructure as Code (IaC)
+- Benefits of IaC:
+  - Version control and audit trail
+  - Reproducibility and consistency
+  - Faster deployments and disaster recovery
+  - Easy scaling and environment parity
+- Tools: Terraform, CloudFormation, Ansible, Helm
+- Manual changes should be minimal and documented
+- Automate everything possible for reliability
+
+## 4. If you see a Pod in Pending state, what troubleshooting will you do?
+
+**Answer:**
+**Steps:**
+1. Check Pod logs: `kubectl logs <pod-name>`
+2. Describe Pod: `kubectl describe pod <pod-name>`
+3. Check resource requests vs node capacity: `kubectl top nodes`
+4. Verify node availability: `kubectl get nodes`
+5. Check for taints/tolerations mismatch
+6. Verify PVC availability if storage is needed
+7. Check resource quotas and limits
+8. Verify image pull policy and image availability
+
+**Common causes:**
+- Insufficient CPU/Memory on nodes
+- Node selectors/affinity rules not matching
+- PVC not bound
+- Resource quotas exceeded
+- Taints/tolerations mismatch
+- Image pull errors
+
+## 5. Production Patterns & Anti-patterns
+
+**Production Patterns (Best Practices):**
+- Rolling deployments for zero downtime
+- Health checks (readiness & liveness probes)
+- Resource requests/limits properly set
+- Horizontal Pod Autoscaling (HPA)
+- Multi-AZ deployment
+- Proper logging and monitoring
+- Circuit breakers and retry logic
+- API rate limiting
+- Caching strategies
+
+**Anti-patterns (Avoid):**
+- Running single replica in production
+- No resource limits (risk of OOMKill)
+- Hardcoded configurations
+- Manual deployments
+- Ignoring monitoring and alerts
+- No disaster recovery plan
+- Storing secrets in code
+- Tight coupling between services
+- No rate limiting on APIs
+- Skipping load testing before production
+
+## 6. Monitor user access without existing monitoring—where is the nearest point?
+
+**Answer:**
+**Best monitoring point for user requests:**
+1. **API Gateway / Ingress Controller** (first touchpoint)
+   - Captures all incoming requests
+   - Minimal latency
+   - Easy to instrument
+   - Can track user authentication/authorization
+
+2. **Application Load Balancer (ALB)** 
+   - Can log requests
+   - Provides metrics on request counts, latency, errors
+   - Cost-effective for initial monitoring
+
+3. **Application level**
+   - Instrument application code with OpenTelemetry
+   - Track request duration, errors, dependencies
+   - Log with correlation IDs
+
+4. **Network level**
+   - Use VPC Flow Logs
+   - Monitor traffic patterns
+
+**Quick setup:**
+- Enable ALB/NLB access logs
+- Add OpenTelemetry instrumentation
+- Set up basic Prometheus scraping
+- Create Grafana dashboards for key metrics
+
+## 7. What is Synthetic Monitoring?
+
+**Answer:**
+Synthetic monitoring simulates user interactions to verify application availability and performance.
+
+**Key points:**
+- Proactive monitoring (before real users are affected)
+- Simulate user workflows from multiple locations
+- Check endpoint availability, response times, functionality
+- Tools: Datadog Synthetic Monitoring, Grafana k6, Postman
+- Types:
+  - API testing
+  - Web transaction monitoring
+  - Mobile app simulation
+  - DNS monitoring
+- Benefits:
+  - Early detection of issues
+  - Performance baseline establishment
+  - Geographic availability verification
+  - SLA compliance validation
+
+## 8. What are the Four Golden Signals?
+
+**Answer:**
+The Four Golden Signals are key metrics for monitoring system health:
+
+1. **Latency**
+   - Time taken for request to be processed
+   - Distinguish between successful and failed requests
+   - Measure p50, p95, p99 percentiles
+
+2. **Traffic**
+   - Volume of requests hitting the system
+   - Measured in requests/sec, HTTP methods, bandwidth
+   - Helps identify load patterns
+
+3. **Error Rate**
+   - Percentage of failed requests
+   - Both HTTP errors (5XX, 4XX) and application errors
+   - Monitor absolute errors and error rate percentage
+
+4. **Saturation**
+   - How "full" your resources are
+   - CPU, memory, disk, network utilization
+   - Queue lengths, connection pool usage
+   - Indicates when to scale
+
+**Implementation:**
+- Use Prometheus for collection
+- Visualize in Grafana
+- Set alerts based on thresholds
+- Track SLOs using these metrics
+
+## 9. VPN Service Not Working—How to Troubleshoot?
+
+**Answer:**
+**Troubleshooting steps:**
+
+1. **Verify service status:**
+   ```bash
+   kubectl get pods -n <namespace>
+   kubectl describe pod <pod-name>
+   kubectl logs <pod-name>
+   ```
+
+2. **Check connectivity:**
+   ```bash
+   ping <service-ip>
+   telnet <service-ip>:<port>
+   curl http://<service-ip>:<port>/health
+   ```
+
+3. **Verify network policies:**
+   ```bash
+   kubectl get networkpolicies
+   kubectl describe networkpolicy <policy-name>
+   ```
+
+4. **Check service configuration:**
+   ```bash
+   kubectl get svc
+   kubectl describe svc <service-name>
+   ```
+
+5. **Test from inside cluster:**
+   ```bash
+   kubectl exec -it <pod-name> -- bash
+   curl http://<service-name>:<port>
+   ```
+
+6. **Check ingress/load balancer:**
+   - Verify ingress rules
+   - Check ALB/NLB target group health
+   - Verify DNS resolution
+
+7. **Check firewall/security groups:**
+   - Verify inbound rules on security groups
+   - Check VPN gateway settings
+   - Verify VPC peering if applicable
+
+**Common issues:**
+- Service not ready (pod still starting)
+- Wrong port mapping
+- Network policy blocking traffic
+- DNS resolution failures
+- Security group restrictions
+- Pod resource exhaustion
+
+## 10. Check Connectivity from Outside VM to Application
+
+**Answer:**
+**Commands to verify external connectivity:**
+
+```bash
+# 1. Test DNS resolution
+nslookup <application-domain>
+dig <application-domain>
+
+# 2. Test connectivity to VM
+ping <vm-public-ip>
+traceroute <vm-public-ip>
+
+# 3. Test application port
+telnet <vm-public-ip> <port>
+nc -zv <vm-public-ip> <port>
+
+# 4. Test HTTP/HTTPS
+curl -v http://<vm-public-ip>:<port>
+curl -I http://<application-domain>
+
+# 5. Check route to VM
+traceroute <vm-public-ip>
+mtr <vm-public-ip>
+
+# 6. Test with specific protocol
+curl -k https://<vm-public-ip>:443
+wget http://<vm-public-ip>:<port>/health
+
+# 7. Check response headers
+curl -v -H "Host: <domain>" http://<vm-public-ip>:<port>
+```
+
+**Verification checklist:**
+- [ ] DNS resolves correctly
+- [ ] VM is reachable (ping successful)
+- [ ] Port is listening (`telnet` successful)
+- [ ] Application responds (HTTP 200/3xx, not 5xx)
+- [ ] Security group allows inbound traffic
+- [ ] Network ACLs allow traffic
+- [ ] Firewall on VM allows port
+- [ ] Application is running and healthy
+- [ ] Load balancer health checks passing
+- [ ] No rate limiting blocking requests
+
+---
 
 # 1. Linux Administration
 
@@ -472,50 +720,4 @@ Based on all our interview preparation chats (SRE, DevOps, Kubernetes, AWS, Linu
 188. How do you scale applications efficiently?
 189. How do you balance reliability and cost optimization?
 
-These 189 questions cover approximately 90–95% of the technical topics you've discussed across all our interview-preparation conversations and are a solid master checklist for SRE/DevOps/NOC/Platform Engineer interviews.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+These 189 questions cover approximately 90–95% of the technical topics discussed across all interview preparation conversations and serve as a comprehensive master checklist for SRE/DevOps/NOC/Platform Engineer roles.
