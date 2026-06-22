@@ -10,17 +10,23 @@ TASKS
 Privancia
 Wipro 3
 One2n - Update
-Wipro 2 Update
+Wipro 2 Update (Ayush No Update)
 Tech M Update
 MC Update
 NTT DATA INC. - Schedule not received.
 Deloitte Client (Cirruslabs PayRoll)
 Teksystems (Client HSBC)
 Metro Global (Take update 11 JUN)
-Galaxy Itech (Apple client)
-Metro Global (Friday)
-MensaBrands (Friday)
-BridgeNext (Friday)
+Galaxy Itech (Apple client) - not scheduled
+Metro Global (Friday) - No Response
+MensaBrands (Friday) - No Response
+BridgeNext (Friday) - No Response
+LTM - 2nd Done Awaiting for Offer
+Fulcrum - Take Update
+OneXtel
+Robert Walters
+Stripe - No Update after 1st Round
+
 
 Fintech -
 
