@@ -6,26 +6,28 @@ Daily LinkedIn searches & applications
 Daily Indeed searches
 Daily remote job applications
 
-TASKS
+TASKS -
 Privancia
 Wipro 3
-One2n - Update
 Wipro 2 Update (Ayush No Update)
 Tech M Update
 MC Update
 NTT DATA INC. - Schedule not received.
-Deloitte Client (Cirruslabs PayRoll)
-Teksystems (Client HSBC)
+Deloitte Client (Cirruslabs PayRoll) (client Done) - No Update
 Metro Global (Take update 11 JUN)
 Galaxy Itech (Apple client) - not scheduled
 Metro Global (Friday) - No Response
 MensaBrands (Friday) - No Response
-BridgeNext (Friday) - No Response
+BridgeNext (Friday) - Rejected
 LTM - 2nd Done Awaiting for Offer
 Fulcrum - Take Update
-OneXtel
-Robert Walters
+OneXtel - No Update
+Robert Walters (No Schedule)
 Stripe - No Update after 1st Round
+Persistent Systems - No Update
+Cognizant scheduled.
+
+
 
 
 Fintech -
@@ -572,9 +574,9 @@ curl -v -H "Host: <domain>" http://<vm-public-ip>:<port>
 
 # 8. Grafana
 
-97. What is Grafana?
-98. How do you create a dashboard?
-99. What data sources have you used?
+97.  What is Grafana?
+98.  How do you create a dashboard?
+99.  What data sources have you used?
 100. How do you create alerts?
 101. How do you troubleshoot Grafana issues?
 
